@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box !important;
+}
+.App {
+  text-align: center;
+}
+
+.tableCenter{
+  position: absolute;
+  box-sizing: border-box;
+  width: 50%;
+  top : 50%;
+  left : 50%;
+  transform: translate(-50%, -50%) !important;
+  box-shadow: 10px 10px 5px rosybrown;
+}
+
+.paraCSSEnd{
+  padding-right: 0% !important;
+  padding-left: 0% !important;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top:1% ; 
+  padding-bottom:1%;
+  background-color:lightskyblue;
+  margin-bottom: 0% !important;
+}
+
+.paraCSS{
+  background-color:lightskyblue;
+  padding-top:1% ; 
+  padding-bottom:1%;
+}
+
+.Left{
+  float:left;
+  padding-left:2%;
+}
+
+.Right{
+  float:right;
+  padding-right:2%;
+}
+
+.styled-table {
+  
+  /* border-collapse: collapse; */
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.styled-table thead tr {
+  background-color: lightskyblue;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.outerBox{
+  border: 10px solid red;
+}

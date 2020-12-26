@@ -1,0 +1,19 @@
+
+.ErrorPara{
+    font-size: small;
+    color: red;
+}
+.Container{
+    background-image: url(../Images/back.jpg);
+    /* background-color: oldlace; */
+    position: absolute !important;
+    width: 50%;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%, -50%) !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.btnCenter{
+    position: relative !important; 
+    left: 46%;
+}
